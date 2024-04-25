@@ -43,12 +43,17 @@ function verificar (){
             genero = 'Mulher'
             if (idade >=0 && idade < 10){
                     //Criança
-                    img.setAttribute('src', 'menina2 jovem.jpeg')
+                    img.setAttribute('src', 'menina jovem.jpg')
             }
-            else if (idade >=10 && idade < 21){
+            else if (idade >=10 && idade < 18){
                     //Jovem
-                    img.setAttribute('src', 'gabi med.jpg')
-            }                
+                    img.setAttribute('src', 'menina2 jovem.jpeg')
+            } 
+            
+            else if (idade >=18 && idade < 21){
+                //Jovem
+                img.setAttribute('src', 'gabi med.jpg')
+        }
 
             else if (idade > 21 && idade < 28 ){
                 // Adolescente
