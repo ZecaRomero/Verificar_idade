@@ -28,7 +28,7 @@ function verificar (){
 
             else if (idade > 21 && idade < 28){
                 // Adolescente
-                img.setAttribute('src', 'adulto h jovem.jpg')
+                img.setAttribute('src', 'adulto h.jpg')
             }
 
             else {
