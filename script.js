@@ -62,7 +62,7 @@ function verificar (){
 
             else {
                 // Idosa
-                img.setAttribute('src', 'idosa f.jpg')
+                img.setAttribute('src', 'amor.jpg')
             }
 
         }
