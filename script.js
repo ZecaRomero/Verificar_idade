@@ -47,7 +47,7 @@ function verificar (){
             }
             else if (idade >=10 && idade < 21){
                     //Jovem
-                    img.setAttribute('src', 'gabi.jpg')
+                    img.setAttribute('src', 'gabi med.jpg')
             }                
 
             else if (idade > 21 && idade < 28 ){
