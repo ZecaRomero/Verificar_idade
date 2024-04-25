@@ -4,17 +4,20 @@ body {
 }
 
 header {
-    color: rgb(25, 192, 78);
+    color: rgb(194, 217, 202);
     text-align: center;
+    box-shadow: 10px 10px 20px blue;
 }
 
 section {
-    background: white;
+    background: rgb(74, 76, 82);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px black;
+    box-shadow: 10px 10px 20px blue;
+    color: rgb(88, 145, 237);
 }
 
 footer {
