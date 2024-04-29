@@ -32,7 +32,7 @@ function verificar (){
             }
 
             else if (idade > 29 && idade < 48){
-                // Adolescente
+                // Adulto
                 img.setAttribute('src','jorge.jpeg')
             }
 
@@ -66,7 +66,7 @@ function verificar (){
             }
 
             else if (idade > 22 && idade < 49 ){
-                // Adolescente
+                // Adulta
                 img.setAttribute('src', 'amor.jpg')
             }
 
