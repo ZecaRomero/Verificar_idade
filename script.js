@@ -23,7 +23,7 @@ function verificar (){
             }
             else if (idade >= 10 && idade < 20){
                     //Jovem
-                    img.setAttribute('src', 'zeca e amor.jpg')
+                    img.setAttribute('src', 'menino jovem.jpg')
             }                
 
             else if (idade > 21 && idade < 28){
@@ -33,7 +33,7 @@ function verificar (){
 
             else if (idade > 29 && idade < 48){
                 // Adolescente
-                img.setAttribute('src','zeca e amor.jpg')
+                img.setAttribute('src','jorge.jpeg')
             }
 
             else {
