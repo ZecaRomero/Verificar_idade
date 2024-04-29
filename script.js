@@ -5,7 +5,7 @@ function verificar (){
     var res = document.getElementById('res') // penultima DIV 
 
     if ( fano.value.length == 0 || Number (fano.value) > ano) //se ano for igual a 0 ou (||)
-    window.alert('[ERRO] Verificque os dados e tente novamente')
+    window.alert('[ERRO] Verifique os dados e tente novamente')
 
     else {
         var sex = document.getElementsByName('sex')
