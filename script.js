@@ -65,9 +65,14 @@ function verificar (){
                 img.setAttribute('src', 'amanda.jpg')
             }
 
+            else if (idade > 22 && idade < 49 ){
+                // Adolescente
+                img.setAttribute('src', 'amor.jpg')
+            }
+
             else {
                 // Idosa
-                img.setAttribute('src', 'amor.jpg')
+                img.setAttribute('src', 'idosa f.jpg')
             }
 
         }
